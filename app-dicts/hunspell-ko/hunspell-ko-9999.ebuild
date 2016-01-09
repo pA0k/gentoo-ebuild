@@ -38,7 +38,6 @@ src_install() {
 	doins ${S}/ko_KR.aff
 
 	MYSPELLDIR=/usr/share/myspell
-	mkdir -p ${MYSPELLDIR}
 	dodir ${MYSPELLDIR}
 	dosym ${SPELLDIR}/ko_KR.dic ${MYSPELLDIR}/ko_KR.dic
 	dosym ${SPELLDIR}/ko_KR.aff ${MYSPELLDIR}/ko_KR.aff
