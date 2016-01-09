@@ -8,7 +8,7 @@ PYTHON_COMPAT=(python{3_3,3_4})
 inherit git-2 python
 
 DESCRIPTION="Korean spellchecking dictionary for hunspell"
-HOMEPAGE="http://code.google.com/p/spellcheck-ko/"
+HOMEPAGE="https://github.com/changwoo/hunspell-dict-ko"
 EGIT_REPO_URI="https://github.com/changwoo/hunspell-dict-ko.git"
 
 LICENSE="MPL-2.0"
